@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Helpbot</title>
+    <link rel = "stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="show-chatbot">
+    <button class = "chatbot-toggler">
+        <span class = "material-symbols-outlined">mode_comment</span>
+        <span class = "material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Helpbot</h2>
+            <span class = "material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class = "material-symbols-outlined">smart_toy</span>
+                <p>Hello!<br>How can I help you today?</p>
+            </li>
+            <li class="chat outgoing">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laboriosam non voluptas sint nisi animi aut aliquid harum officiis, eius repellendus atque enim, qui blanditiis illum voluptatum fugiat quaerat et!</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a Message" required></textarea>
+            <span id="send-btn" class="material-symbols-outlined" >Send</span>
+        </div>
+    </div>
+</body>
+</html>
